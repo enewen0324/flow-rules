@@ -1,0 +1,13 @@
+{
+	"deviceId": "of:000078321bdf7600",
+	"id": 7,
+	"unit": "KB_PER_SEC",
+	"burst": true,
+	"bands": [
+		{
+			"type": "DROP",
+			"rate": "10240",
+			"burstSize": "10240"
+		}
+	]
+}

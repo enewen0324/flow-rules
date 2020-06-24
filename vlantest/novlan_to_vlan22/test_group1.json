@@ -1,0 +1,14 @@
+{
+	"type": "INDIRECT",
+	"appCookie": "0x1234abc3",
+	"groupId": 1441794,
+	"buckets": [{
+		"treatment": {
+			"instructions": [{
+				"type": "OUTPUT",
+				"port": 2
+			}]
+		}
+	}]
+}
+

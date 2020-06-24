@@ -1,0 +1,31 @@
+{
+   "flows": [
+      {
+         "priority": 10000,
+         "timeout": 0,
+         "isPermanent": true,
+         "deviceId": "of:000078321bdf4000",
+         "treatment": {
+            "instructions": [
+               {
+                  "type": "L2MODIFICATION",
+                  "subtype": "ETH_DST",
+                  "mac": "FF:FF:FF:FF:FF:FF"
+               },
+               {
+                  "type": "OUTPUT",
+                  "port": "2"
+               }
+            ]
+         },
+         "selector": {
+            "criteria": [
+               {
+                  "type": "IN_PORT",
+                  "port": "1"
+               }
+            ]
+         }
+      }
+   ]
+}

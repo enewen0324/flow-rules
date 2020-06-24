@@ -1,0 +1,1 @@
+/home/winlab/useful_script/delete.sh

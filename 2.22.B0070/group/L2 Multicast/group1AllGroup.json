@@ -1,0 +1,28 @@
+{
+	"type": "ALL",
+	"appCookie": "0x3234abc1",
+	"groupId": 805371905,
+	"buckets": 
+	[
+		{
+			"treatment": {
+				"instructions": [
+					{
+						"type": "GROUP",
+						"groupId": 65537
+					}
+				]
+			}
+		},
+		{
+			"treatment": {
+				"instructions": [
+					{
+						"type": "GROUP",
+						"groupId": 65538
+					}	
+				] 
+			}
+		}
+	]
+}

@@ -1,0 +1,35 @@
+{
+  "flows":[
+    {
+      "priority":40001,
+      "timeout":0,
+      "isPermanent":true,
+      "deviceId":"of:000078321bdf7600",
+      "selector":{
+        "criteria":[
+          {
+            "type":"IN_PORT",
+            "port":1
+          },
+          {
+            "type":"ETH_TYPE",
+            "ethType":"0x0800"
+          },
+          {
+            "type":"IPV4_DST",
+            "ip":"192.168.202.2/24"
+          }
+        ]
+      },
+      "treatment":{
+        "instructions": [],
+		"deferred": [
+          {
+            "type":"GROUP",
+            "groupId":"1879048193"
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+	"deviceId": "of:000078321bdf7600",
+	"id": 1,
+	"unit": "PKTS_PER_SEC",
+	"burst": true,
+	"bands": [
+		{
+			"type": "DROP",
+			"rate": "20",
+			"burstSize": "0",
+			"prec": "0"
+		}
+	]
+}

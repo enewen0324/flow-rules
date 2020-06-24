@@ -1,0 +1,29 @@
+{
+  "type":"SELECT",
+  "appCookie":"0x70000001",
+  "groupId":"1879048193",
+  "buckets":[
+    {
+      "treatment":{
+        "instructions":[
+          {
+            "type":"GROUP",
+            "groupId":"536870913"
+          }
+        ]
+      },
+      "weight":"1"
+    },
+    {
+      "treatment":{
+        "instructions":[
+          {
+            "type":"GROUP",
+            "groupId":"536870914"
+          }
+        ]
+      },
+      "weight":"1"
+    }
+  ]
+}

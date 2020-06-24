@@ -1,0 +1,27 @@
+{
+  "flows":[
+    {
+      "priority":40001,
+      "timeout":0,
+      "isPermanent":true,
+      "deviceId":"of:000078321bdf7600",
+      "selector":{
+        "criteria":[
+          {
+            "type":"IN_PORT",
+            "port":1
+          }
+        ]
+      },
+      "treatment":{
+        "instructions": [],
+	"deferred": [
+          {
+            "type":"GROUP",
+            "groupId":"1879048193"
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "type":"INDIRECT",
+  "appCookie":"0x4234abc3",
+  "groupId":"536870913",
+  "buckets":[
+    {
+      "treatment":{
+        "instructions":[
+          {
+            "type":"GROUP",
+            "groupId":"65537"
+          },
+          {
+            "type":"L2MODIFICATION",
+            "subtype":"VLAN_ID",
+            "vlanId":1
+          },
+          {
+            "type":"L2MODIFICATION",
+            "subtype":"ETH_SRC",
+            "mac":"00:00:00:11:22:33"
+          },
+          {
+            "type":"L2MODIFICATION",
+            "subtype":"ETH_DST",
+            "mac":"00:00:00:01:02:03"
+          }
+        ]
+      }
+    }
+  ]
+}

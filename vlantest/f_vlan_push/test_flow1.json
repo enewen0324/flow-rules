@@ -1,0 +1,31 @@
+{
+	"flows": [
+		{
+			"priority": 50000,
+			"timeout": 0,
+			"isPermanent": true,
+			"deviceId": "of:000078321bdf7600",
+			"treatment": {
+				"instructions": [
+					{
+						"type":"L2MODIFICATION",
+						"subtype":"VLAN_PUSH"
+					},
+					{
+						"type":"OUTPUT",
+						"port":"2"
+					}
+				]
+			},
+			"selector": {
+				"criteria": [
+					{
+						"type": "IN_PORT",
+						"port": "1"
+					}
+				]
+			}
+		}
+	]
+}
+

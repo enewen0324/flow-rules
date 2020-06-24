@@ -1,0 +1,17 @@
+{
+  "type":"INDIRECT",
+  "appCookie":"0x20010002",
+  "groupId":"536936450",
+  "buckets":[
+    {
+      "treatment":{
+        "instructions":[
+          {
+            "type":"GROUP",
+            "groupId":"65538"
+          }
+        ]
+      }
+    }
+  ]
+}

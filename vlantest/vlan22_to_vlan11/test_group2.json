@@ -1,0 +1,20 @@
+{
+	"type": "INDIRECT",
+	"appCookie": "0x2234abc3",
+	"groupId": 269156354,
+	"buckets": [{
+		"treatment": {
+			"instructions": [
+				{
+					"type": "L2MODIFICATION",
+					"subtype": "VLAN_ID",
+					"vlanId": 11
+				},
+				{
+					"type": "GROUP",
+					"groupId":  720898
+				}
+			]
+		}
+	}]
+}

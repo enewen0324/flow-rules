@@ -1,0 +1,50 @@
+{
+"flows":
+    [
+        {
+            "priority":40001,
+            "timeout":0,
+            "isPermanent":true,
+            "deviceId":"of:000078321bdf7600",
+            "treatment":{
+                "instructions":[
+                    {
+                        "type":"OUTPUT",
+                        "port":"2"
+                    } 
+                ]
+            },
+            "selector":{
+                "criteria":[
+                    {
+                        "type":"ETH_SRC",
+                        "mac":"D0:94:66:5D:5E:08"
+                    }
+                ]
+            }
+        },
+        {
+
+            "priority":40001,
+            "timeout":0,
+            "isPermanent":true,
+            "deviceId":"of:000078321bdf7600",
+            "treatment":{
+                "instructions":[
+                    {
+                        "type":"OUTPUT",
+                        "port":"1"
+                    }
+                ]
+            },
+            "selector":{
+                "criteria":[
+                    {
+                        "type":"ETH_SRC",
+                        "mac":"D0:94:66:5C:45:20"
+                    }
+                ]
+            }
+        }
+    ]
+}

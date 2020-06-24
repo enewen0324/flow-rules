@@ -1,0 +1,20 @@
+{
+	"type": "INDIRECT",
+	"appCookie": "0x2234abc3",
+	"groupId": 268500994,
+	"buckets": [{
+		"treatment": {
+			"instructions": [
+				{
+					"type": "L2MODIFICATION",
+					"subtype": "ETH_DST",
+					"mac": "d0:94:66:5c:45:1f" 
+				},
+				{
+					"type": "GROUP",
+					"groupId": 65538
+				}
+			]
+		}
+	}]
+}
